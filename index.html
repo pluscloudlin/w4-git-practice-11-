@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
   <meta charset="UTF-8">
   <title>W4 練習 Chatbot</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <div class="container">
     <header>
       <h1>🤖 練習用 Chatbot</h1>
       <!-- 練習一：把標題改成你們組的名字 -->
-      <p class="subtitle">W4 Git Branch 練習</p>
+      <p class="subtitle">Group11 W4 Git Branch</p>
       <button class="dark-toggle" onclick="document.body.classList.toggle('dark')">🌙 深色模式</button>
     </header>
 
@@ -53,10 +55,11 @@
     }
 
     // 按 Enter 也能送出
-    document.getElementById('user-input').addEventListener('keypress', function(e) {
+    document.getElementById('user-input').addEventListener('keypress', function (e) {
       if (e.key === 'Enter') sendMessage();
     });
   </script>
 
 </body>
+
 </html>
